@@ -1,0 +1,59 @@
+/*htmlファイル内に直接cssを組み込む
+<p style="color: red;">ここが赤文字</p>　この場合はなによりも優先される　*/
+
+
+/*文字を赤にする*/
+p {
+    color: red;
+    font-size: 24px;
+}
+/*マージンを４０pxに*/
+h1 {
+    margin: 40px;
+    margin-bottom: 40px;
+}
+/*importantな部分を赤くする。クラス名はなんでも良い  .abc {   }  */
+p.important {
+    color: red;
+}
+/*important全てを赤くする場合は　　.important: red;　　とする*/
+p {
+    text-align: center;
+}
+
+a:link {
+    color: #0000ff;
+}
+a:hover {
+    color: #ff0000;
+}
+a:visited {
+    color: #999999;
+}
+/*　a:linkは未訪問のリンクです。未訪問リンクの文字色を青に指定します。
+a:hoverは要素にカーソルが乗っている状態です。a要素にカーソルを合わせると文字色が赤になるように指定しています。
+a:visitedは訪問済みのリンクです。訪問済みリンクの文字色はグレーになるように指定しています。  */
+/*　テキスト関係　
+color	文字色の指定
+font-size	文字の大きさの指定
+font-weight	文字の太さの指定
+text-align	文字の行揃えの指定（左寄せ、中央寄せ、右寄せなど）*/
+
+/*　背景　
+background-color	背景色の指定
+background-image	背景画像の指定*/
+
+/*　ボックスモデル　
+margin	マージン（余白・外）のサイズを指定
+border	ボーダー（境界線）のサイズの指定
+padding	パディング（余白・内）のサイズを指定
+width	コンテンツの横幅を指定
+height	コンテンツの縦幅を指定*/
+
+/*  表示や配置　
+display	要素の表示・非表示を指定
+float	サイドバーなどコンテンツの配置を指定
+position	同じくコンテンツの配置を指定
+overflow	コンテンツがはみ出た場合の対応を指定  */
+
+/*　その他　http://www.htmq.com/style/　*/
