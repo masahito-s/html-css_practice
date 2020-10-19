@@ -1,3 +1,4 @@
+/*10-1から10-4
 .box {
     margin: 50px;
     border: 10px solid pink;
@@ -6,7 +7,7 @@
     height: 200px;
     background-color: skyblue;
 }
-/*上下左右・上下ー左右・上ー左右ー下・上ー右ー下ー左*/
+上下左右・上下ー左右・上ー左右ー下・上ー右ー下ー左
 
 .box-inner {
     magin: 20px;
@@ -16,9 +17,9 @@
     height: 30px;
     background-color: orange;
 }
-/*下　２カラムレイアウト
+下　２カラムレイアウト
 display flex(横並び)
-justifi-content(寄せる)*/
+justifi-content(寄せる)
 header {
     height: 50px;
     background-color: #ffdddd;
@@ -40,7 +41,7 @@ footer {
     height: 50px;
     background-color: #ddddff;
 }
-/*3カラム　html側にasideを2つ用意、メインをサイドで挟む
+3カラム　html側にasideを2つ用意、メインをサイドで挟む
 header {
     height: 50px;
     background-color: #ffdddd;
@@ -62,3 +63,21 @@ footer {
     height: 50px;
     background-color: #ddddff;
 }*/
+/*10-5から10-8
+nav ul {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 5px;
+}
+.long-content {
+    height: 300px;
+    background-color: skyblue;
+}
+*/
