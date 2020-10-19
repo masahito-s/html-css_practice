@@ -1,8 +1,64 @@
 .box {
     margin: 50px;
     border: 10px solid pink;
-    padding: 50px;
-    width: 100px;
-    height: 50px;
+    padding: 30px 20px 30px 40px;
+    width: 200px;
+    height: 200px;
     background-color: skyblue;
 }
+/*上下左右・上下ー左右・上ー左右ー下・上ー右ー下ー左*/
+
+.box-inner {
+    magin: 20px;
+    border: 3px solid green;
+    padding: 50px 20px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+}
+/*下　２カラムレイアウト
+display flex(横並び)
+justifi-content(寄せる)*/
+header {
+    height: 50px;
+    background-color: #ffdddd;
+}
+#wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#main {
+    width: 60%;
+    background-color: #ddffdd;
+}
+aside {
+    width: 30%;
+    background-color: #ffddff;
+}
+footer {
+    height: 50px;
+    background-color: #ddddff;
+}
+/*3カラム　html側にasideを2つ用意、メインをサイドで挟む
+header {
+    height: 50px;
+    background-color: #ffdddd;
+}
+#wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#main {
+    width: 34%;
+    background-color: #ddffdd;
+}
+aside {
+    width: 33%;
+    background-color: #ffddff;
+}
+footer {
+    height: 50px;
+    background-color: #ddddff;
+}*/
