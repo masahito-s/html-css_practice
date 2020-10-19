@@ -1,0 +1,8 @@
+.box {
+    margin: 50px;
+    border: 10px solid pink;
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: skyblue;
+}
